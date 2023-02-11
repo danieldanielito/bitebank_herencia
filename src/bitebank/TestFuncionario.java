@@ -31,6 +31,7 @@ public class TestFuncionario {
         boolean autentico = g1.iniciarSesion(222);
 
         System.out.println(autentico);
+        System.out.println(g1.bonificacion());
 
 	}
 
