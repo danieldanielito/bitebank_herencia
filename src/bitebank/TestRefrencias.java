@@ -7,7 +7,7 @@ public class TestRefrencias {
         g1.setNombre("Marcos");
         g1.setSalario(5000.0);
 
-        EditorVideo ev = new EditorVideo();
+        Administrador ev = new Administrador();
         ev.setSalario(2500.0);
 
         Designer d = new Designer();

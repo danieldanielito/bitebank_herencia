@@ -6,7 +6,7 @@ public class TestFuncionario {
 		
 		System.out.println("parte de funcionario");
 		
-		Funcionario daniel= new Funcionario();
+		Funcionario daniel= new Administrador();
 		daniel.setNombre("daniel");
 		daniel.setDocumento("22565");
 		daniel.setSalario(2000);

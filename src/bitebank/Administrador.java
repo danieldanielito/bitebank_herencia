@@ -1,6 +1,6 @@
 package bitebank;
 
-public class Gerente extends Funcionario implements Autenticable{
+public class Administrador extends Funcionario implements Autenticable {
     private int clave;
 	@Override
 	public void setClave(int clave) {
@@ -17,11 +17,11 @@ public class Gerente extends Funcionario implements Autenticable{
         }
 	}
 
-	 @Override
-	 public double bonificacion() {
-		  return getSalario();
-	 }
-
+	@Override
+	public double bonificacion() {
+		
+		return 200;
+	}
 
 
 }
